@@ -1,0 +1,49 @@
+.container{
+    margin: 0 auto;
+    max-width: 400px;
+    text-align: center;
+    padding: 8rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-shadow: 1px 1px 18px rgba(0, 0, 0, .2);
+    border-radius: 5px;
+}
+
+.title{
+    color: purple;
+    font-weight: bolder;
+    font-size: 3rem;
+}
+button{
+    font-size: 18px;
+    padding: 10px 20px;
+    margin: 10px;
+    color: white;
+    background-color: orange;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: opacity .3s ease-in-out;
+
+}
+
+.timer{
+    font-size: 5rem;
+}
+
+button:hover{
+    opacity: .5;
+}
+
+#start{
+    background-color: green;
+}
+
+#stop{
+    background-color: red;
+}
+
+#reset{
+    background-color: gray;
+}
+
